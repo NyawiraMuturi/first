@@ -12,10 +12,10 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.jpegmini.com%2F&psig=AOvVaw2CO3Vd2b8SV3xOpDYWi-G-&ust=1600774209813000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKDtu-aS-usCFQAAAAAdAAAAABAP'),
-          ),
+            image: AssetImage('images/diamond.png'),
         ),
       ),
     ),
+  ),
   );
 }
